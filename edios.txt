@@ -1,0 +1,14 @@
+Co-Other of Edios is well respected
+
+evenry body doesn't get chance to publish paper with 
+we can publish co-other of edios
+
+Edios - Co-Author publish =1 
+Edios-Co-Author - Co-Authot= 2..so on 
+
+Input:
+	fist line number of scenarios:
+	Each scenario: Paper database and list of names
+		>> begins with P & N --> natural numbers
+
+

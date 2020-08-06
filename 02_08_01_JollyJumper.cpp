@@ -27,13 +27,13 @@ class JollyJumper: public IOPipeline {
 		
 		}
 		void writeOutput () {
-			/*
+			
 			cout << numInput_<<" ";
 			for ( int i=0;i<numInput_;i++ ) {
 				cout<<inputArray_[i]<<" ";
 			}
 			cout<<endl;
-			*/
+			
 			if ( isJolly_ )
 				cout <<"Jolly"<<endl;
 			else
@@ -44,13 +44,3 @@ class JollyJumper: public IOPipeline {
 		int *inputArray_;
 		bool isJolly_;
 };
-
-int main ( int argc, char **argv ){
-
-	JollyJumper *jollyJumper=new JollyJumper();
-	jollyJumper->readInput();
-	jollyJumper->processData();
-	jollyJumper->writeOutput();
-	//return (0);
-	return (0);
-}

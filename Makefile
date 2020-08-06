@@ -1,11 +1,7 @@
-CXX=g++ -I.
-COMMON_FILES=IOPipeline.cpp
-CPP_FILE=02_08_01_JollyJumper.cpp
-EXE=$(shell basename ${CPP_FILE} .cpp ).exe
-RM=rm -rf
-all:
-	${CXX} ${CPP_FILE} ${COMMON_FILES} -o ${EXE}
-.PHONY:clean
-clean:
-	${RM} ${EXE}
-
+#LDFLAGS for loader flags; EXTRA_CFLAGS for file inclusion
+#LDADD for linking and loading the library
+SRCS=./02_08_05_StackThemUp.cpp ./02_08_01_JollyJumper.cpp ./2_8_6_ErdosNumbers.cpp ./IOPipeline.cpp 
+PROG=programming-challenges
+CFLAGS=-g -Wall -I.
+CC= g++
+include /usr/lib/build/linux.prog.mk
