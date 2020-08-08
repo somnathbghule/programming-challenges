@@ -50,7 +50,7 @@ class ErdosNumbers : public IOPipeline {
 				
 				names_=new  vector <string> [ numPaperDatabase_ ];
 				for ( int i=0;i<numPaperDatabase_;i++ ) {
-					string line;
+					string line; //per line
 					std::getline (std::cin, line);
 					if ( line.length()==0 )
 						std::getline (std::cin, line);
