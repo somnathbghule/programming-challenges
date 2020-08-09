@@ -8,6 +8,8 @@
 
 using namespace std;
 
+#define IOLOG(t) (cout<<#t<<": "<<t<<endl) 
+
 class IOPipeline {
 	public:
 		IOPipeline ();
