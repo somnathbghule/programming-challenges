@@ -1,10 +1,12 @@
 #include <02_08_01_JollyJumper.cpp>
 #include <02_08_05_StackThemUp.cpp>
-#include <2_8_6_ErdosNumbers.cpp>
-#include <3_8_1_WERTYU.cpp>
-#include <3_8_2_Where_s_Waldorf.cpp>
-#include <3_8_3_CommonPermutation.cpp>
-#include <3_8_4_CryptKickerII.cpp>
+#include <02_08_06_ErdosNumbers.cpp>
+#include <03_08_01_WERTYU.cpp>
+#include <03_08_02_Where_s_Waldorf.cpp>
+#include <03_08_03_CommonPermutation.cpp>
+#include <03_08_04_CryptKickerII.cpp>
+#include <02_08_02_PokerHands.cpp>
+#include <02_08_03_Hartals.cpp>
 IOPipeline::IOPipeline () {}
 IOPipeline::~IOPipeline () {}
 void IOPipeline::readInput() {}
@@ -16,7 +18,7 @@ void IOPipeline::run() {
 	writeOutput();
 }
 int main (int argc , char **argv) {
-	IOPipeline *io=new CryptKickerII();
+	IOPipeline *io=new Hartals();
 	io->run();
 	return 0;
 }
