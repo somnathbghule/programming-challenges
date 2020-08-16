@@ -18,7 +18,7 @@ void IOPipeline::run() {
 	writeOutput();
 }
 int main (int argc , char **argv) {
-	IOPipeline *io=new Hartals();
+	IOPipeline *io=new Waldorf();
 	io->run();
 	return 0;
 }
