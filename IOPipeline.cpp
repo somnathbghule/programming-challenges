@@ -18,7 +18,7 @@ void IOPipeline::run() {
 	writeOutput();
 }
 int main (int argc , char **argv) {
-	IOPipeline *io=new Waldorf();
+	IOPipeline *io=new CommonPermutation();
 	io->run();
 	return 0;
 }
