@@ -7,6 +7,9 @@
 #include <03_08_04_CryptKickerII.cpp>
 #include <02_08_02_PokerHands.cpp>
 #include <02_08_03_Hartals.cpp>
+#include <03_08_05_AutomatedJudgeScript.cpp>
+#include <03_08_06_FileFragmentation.cpp>
+#include <03_08_07_Doublets.cpp>
 IOPipeline::IOPipeline () {}
 IOPipeline::~IOPipeline () {}
 void IOPipeline::readInput() {}
@@ -18,7 +21,7 @@ void IOPipeline::run() {
 	writeOutput();
 }
 int main (int argc , char **argv) {
-	IOPipeline *io=new CommonPermutation();
+	IOPipeline *io=new FileFragmentation();
 	io->run();
 	return 0;
 }
