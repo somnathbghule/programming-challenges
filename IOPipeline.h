@@ -11,6 +11,7 @@
 using namespace std;
 
 #define IOLOG(t) (cout<<#t<<": "<<t<<endl) 
+#define vecs vector <string>
 
 class IOPipeline {
 	public:

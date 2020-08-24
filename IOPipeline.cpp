@@ -10,6 +10,7 @@
 #include <03_08_05_AutomatedJudgeScript.cpp>
 #include <03_08_06_FileFragmentation.cpp>
 #include <03_08_07_Doublets.cpp>
+#include <02_08_04_CryptKicker.cpp>
 IOPipeline::IOPipeline () {}
 IOPipeline::~IOPipeline () {}
 void IOPipeline::readInput() {}
@@ -21,7 +22,7 @@ void IOPipeline::run() {
 	writeOutput();
 }
 int main (int argc , char **argv) {
-	IOPipeline *io=new FileFragmentation();
+	IOPipeline *io=new CryptKicker();
 	io->run();
 	return 0;
 }
